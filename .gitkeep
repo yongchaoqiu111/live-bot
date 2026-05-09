@@ -1,0 +1,17 @@
+# 目录结构
+
+## 核心目录
+- `config/` - 配置文件
+- `modules/` - 核心功能模块
+- `utils/` - 工具函数
+- `prompts/` - LLM Prompt模板
+
+## 数据目录（已gitignore）
+- `audio/` - 录音文件（自动生成）
+- `data/` - SQLite数据库（自动生成）
+- `reports/` - 分析报告（自动生成）
+
+## 开源目录
+- `docs/` - 开发文档
+- `examples/` - 使用示例
+- `tests/` - 测试用例
